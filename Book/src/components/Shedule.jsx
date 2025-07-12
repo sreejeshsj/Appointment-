@@ -2,20 +2,17 @@ import React, { useContext, useEffect, useState } from "react";
 import { Datacontext } from "../context/DataContext";
 
 function Shedule() {
-  const { patients, currentDate } = useContext(Datacontext);
+  const { appointment, currentDate } = useContext(Datacontext);
   const [data, setData] = useState([]);
-  // const [checkDay,setCheckDay]=useState(()=>{
-  //   let today=new Date()
-  //   return today.toISOString().split("T")[0]
-  // })
+  
 
   const filterPatients = () => {
-    const fb = patients.filter((item) => item.date === currentDate);
+    const fb = appointment.filter((item) => item.date === currentDate);
     setData(fb);
   };
   useEffect(() => {
     filterPatients();
-  }, [patients, currentDate]);
+  }, [appointment, currentDate]);
 
   return (
     <div className="p-4">

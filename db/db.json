@@ -1,5 +1,5 @@
 {
-  "patients": [
+  "appointments": [
     {
       "name": "John Doe",
       "age": 45,
@@ -79,6 +79,66 @@
       "department": "Ophthalmology",
       "slot": 1,
       "date": "17-07-2025"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Emily Smith",
+      "specialization": "Cardiologist",
+      "experience": 10,
+      "availableDays": ["Monday", "Wednesday", "Friday"],
+      "department": "Cardiology"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajesh Kumar",
+      "specialization": "Dermatologist",
+      "experience": 7,
+      "availableDays": ["Tuesday", "Thursday"],
+      "department": "Dermatology"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Aisha Ahmed",
+      "specialization": "Neurologist",
+      "experience": 12,
+      "availableDays": ["Monday", "Thursday", "Saturday"],
+      "department": "Neurology"
+    },
+    {
+      "id": 4,
+      "name": "Dr. John Williams",
+      "specialization": "Pediatrician",
+      "experience": 8,
+      "availableDays": ["Wednesday", "Friday"],
+      "department": "Pediatrics"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 45,
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Priya Ramesh",
+      "age": 32,
+      "gender": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Ahmed Ali",
+      "age": 28,
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "name": "Meera Nair",
+      "age": 60,
+      "gender": "Female"
     }
   ]
 }
