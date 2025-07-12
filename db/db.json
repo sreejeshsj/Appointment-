@@ -1,0 +1,84 @@
+{
+  "patients": [
+    {
+      "name": "John Doe",
+      "age": 45,
+      "appointedDoctor": "Dr. Emily Smith",
+      "department": "Cardiology",
+      "slot": 1,
+      "date": "15-07-2025"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 30,
+      "appointedDoctor": "Dr. Rajesh Kumar",
+      "department": "Dermatology",
+      "slot": 2,
+      "date": "15-07-2025"
+    },
+    {
+      "name": "Michael Brown",
+      "age": 52,
+      "appointedDoctor": "Dr. Sarah Lee",
+      "department": "Orthopedics",
+      "slot": 3,
+      "date": "15-07-2025"
+    },
+    {
+      "name": "Priya Patel",
+      "age": 27,
+      "appointedDoctor": "Dr. Ayesha Khan",
+      "department": "Gynecology",
+      "slot": 4,
+      "date": "15-07-2025"
+    },
+    {
+      "name": "David Miller",
+      "age": 63,
+      "appointedDoctor": "Dr. John Mathew",
+      "department": "Neurology",
+      "slot": 3,
+      "date": "16-07-2025"
+    },
+    {
+      "name": "Sophia Garcia",
+      "age": 38,
+      "appointedDoctor": "Dr. Anil Mehta",
+      "department": "Gastroenterology",
+      "slot": 4,
+      "date": "16-07-2025"
+    },
+    {
+      "name": "Rahul Sharma",
+      "age": 50,
+      "appointedDoctor": "Dr. Neha Verma",
+      "department": "Urology",
+      "slot": 4,
+      "date": "16-07-2025"
+    },
+    {
+      "name": "Emma Wilson",
+      "age": 22,
+      "appointedDoctor": "Dr. Vinay Reddy",
+      "department": "ENT",
+      "slot": 1,
+      "date": "17-07-2025"
+    },
+    {
+      "name": "Aarav Nair",
+      "age": 34,
+      "appointedDoctor": "Dr. Kavita Bansal",
+      "department": "Pulmonology",
+      "slot": 2,
+      "date": "17-07-2025"
+    },
+    {
+      "name": "Lily Evans",
+      "age": 41,
+      "appointedDoctor": "Dr. Steven White",
+      "department": "Ophthalmology",
+      "slot": 1,
+      "date": "17-07-2025"
+    }
+  ]
+}
