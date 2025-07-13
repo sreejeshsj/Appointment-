@@ -1,6 +1,7 @@
 {
   "appointments": [
     {
+      "id": "1",
       "name": "John Doe",
       "age": 45,
       "appointedDoctor": "Dr. Emily Smith",
@@ -9,14 +10,16 @@
       "date": "15-07-2025"
     },
     {
+      "id": "2",
       "name": "Alice Johnson",
       "age": 30,
-      "appointedDoctor": "Dr. Rajesh Kumar",
+      "appointedDoctor": "Dr. Emily Smith",
       "department": "Dermatology",
       "slot": 2,
       "date": "15-07-2025"
     },
     {
+      "id": "3",
       "name": "Michael Brown",
       "age": 52,
       "appointedDoctor": "Dr. Sarah Lee",
@@ -25,6 +28,7 @@
       "date": "15-07-2025"
     },
     {
+      "id": "4",
       "name": "Priya Patel",
       "age": 27,
       "appointedDoctor": "Dr. Ayesha Khan",
@@ -33,6 +37,7 @@
       "date": "15-07-2025"
     },
     {
+      "id": "5",
       "name": "David Miller",
       "age": 63,
       "appointedDoctor": "Dr. John Mathew",
@@ -41,6 +46,7 @@
       "date": "16-07-2025"
     },
     {
+      "id": "6",
       "name": "Sophia Garcia",
       "age": 38,
       "appointedDoctor": "Dr. Anil Mehta",
@@ -49,6 +55,7 @@
       "date": "16-07-2025"
     },
     {
+      "id": "7",
       "name": "Rahul Sharma",
       "age": 50,
       "appointedDoctor": "Dr. Neha Verma",
@@ -57,6 +64,7 @@
       "date": "16-07-2025"
     },
     {
+      "id": "8",
       "name": "Emma Wilson",
       "age": 22,
       "appointedDoctor": "Dr. Vinay Reddy",
@@ -65,6 +73,7 @@
       "date": "17-07-2025"
     },
     {
+      "id": "9",
       "name": "Aarav Nair",
       "age": 34,
       "appointedDoctor": "Dr. Kavita Bansal",
@@ -73,69 +82,93 @@
       "date": "17-07-2025"
     },
     {
+      "id": "10",
       "name": "Lily Evans",
       "age": 41,
       "appointedDoctor": "Dr. Steven White",
       "department": "Ophthalmology",
       "slot": 1,
       "date": "17-07-2025"
+    },
+    {
+      "id": 11,
+      "name": "John Doe",
+      "age": 41,
+      "appointedDoctor": "Dr. Emily Smith",
+      "department": "Ophthalmology",
+      "slot": 3,
+      "date": "15-07-2025"
     }
   ],
   "doctors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Dr. Emily Smith",
       "specialization": "Cardiologist",
       "experience": 10,
-      "availableDays": ["Monday", "Wednesday", "Friday"],
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
       "department": "Cardiology"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Dr. Rajesh Kumar",
       "specialization": "Dermatologist",
       "experience": 7,
-      "availableDays": ["Tuesday", "Thursday"],
+      "availableDays": [
+        "Tuesday",
+        "Thursday"
+      ],
       "department": "Dermatology"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Dr. Aisha Ahmed",
       "specialization": "Neurologist",
       "experience": 12,
-      "availableDays": ["Monday", "Thursday", "Saturday"],
+      "availableDays": [
+        "Monday",
+        "Thursday",
+        "Saturday"
+      ],
       "department": "Neurology"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Dr. John Williams",
       "specialization": "Pediatrician",
       "experience": 8,
-      "availableDays": ["Wednesday", "Friday"],
+      "availableDays": [
+        "Wednesday",
+        "Friday"
+      ],
       "department": "Pediatrics"
     }
   ],
   "patients": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe",
       "age": 45,
       "gender": "Male"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Priya Ramesh",
       "age": 32,
       "gender": "Female"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ahmed Ali",
       "age": 28,
       "gender": "Male"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Meera Nair",
       "age": 60,
       "gender": "Female"
