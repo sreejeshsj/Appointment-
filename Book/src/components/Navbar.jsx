@@ -34,7 +34,9 @@ function Navbar() {
         </NavLink>
       </ul>
       <div className="flex items-center gap-6">
+        <Link to='/login'>
         <img className="w-5 cursor-pointer" src={assets.profile_icon} alt="" />
+        </Link>
         <div className="group relative">
           <img
             onClick={() => setVisible(true)}

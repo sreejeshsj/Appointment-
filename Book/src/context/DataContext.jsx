@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
-
+import {useNavigate} from "react-router-dom"
 export const Datacontext = createContext();
 
 const DataContextProvider = (props) => {
@@ -8,6 +8,7 @@ const DataContextProvider = (props) => {
   const [currentDate, setCurrentDate] = useState("");
   const [patients,setPatients] =useState([])
   const [doctors,setDoctors]= useState([])
+  const navigate=useNavigate()
   const fetchData = async () => {
     try {
       const response = await axios.get("http://localhost:3001/appointments");
@@ -55,6 +56,9 @@ const fetchPatients= async () => {
     datePicker,
     currentDate,
     doctors,
+    navigate,
+    setAppointments
+
 
   };
 
