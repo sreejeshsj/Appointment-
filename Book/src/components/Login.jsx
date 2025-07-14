@@ -14,7 +14,8 @@ function Login() {
     
     if (email === "staff@clinic.com" && password === "123456") {
       toast.success("Login successful!")
-      navigate("/calenderpanel"); 
+      navigate("/calenderpanel");
+      localStorage.setItem('token',"token123") 
     } else {
       toast.error("Invalid Credentials")
       navigate("/login");

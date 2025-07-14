@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import assets from "../assets/assets";
+import { Datacontext } from "../context/DataContext";
 function Navbar() {
   const [visible, setVisible] = useState(false);
+  const {token}=useContext(Datacontext)
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link>
@@ -18,13 +20,13 @@ function Navbar() {
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
         <NavLink
-          to="/calenderpanel"
+          to={token ? '/calenderpanel' : '/login'}
           className="flex flex-col items-center gap-1"
         >
           <p>Calender</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <NavLink to="/appointment" className="flex flex-col items-center gap-1">
+        <NavLink to={token ? '/appointment' : '/login'} className="flex flex-col items-center gap-1">
           <p>Appoinment</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
@@ -34,9 +36,12 @@ function Navbar() {
         </NavLink>
       </ul>
       <div className="flex items-center gap-6">
-        <Link to='/login'>
+        {
+          token ? '' : <Link to='/login'>
         <img className="w-5 cursor-pointer" src={assets.profile_icon} alt="" />
         </Link>
+        }
+        
         <div className="group relative">
           <img
             onClick={() => setVisible(true)}

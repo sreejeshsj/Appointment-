@@ -9,6 +9,7 @@ const DataContextProvider = (props) => {
   const [patients,setPatients] =useState([])
   const [doctors,setDoctors]= useState([])
   const navigate=useNavigate()
+  const token= localStorage.getItem('token')
   const fetchData = async () => {
     try {
       const response = await axios.get("http://localhost:3001/appointments");
@@ -57,7 +58,8 @@ const fetchPatients= async () => {
     currentDate,
     doctors,
     navigate,
-    setAppointments
+    setAppointments,
+    token
 
 
   };

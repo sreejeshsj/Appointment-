@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Datacontext } from "../context/DataContext";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 function Appointment() {
-  const { doctors, patients, appointment } = useContext(Datacontext);
+  const { doctors, patients, appointment,navigate,token } = useContext(Datacontext);
   const [selectPatient, setSelectPatient] = useState("");
   const [selectUserAge, setSelectUserAge] = useState(0);
   const [selectDepartment, setSelectDepartment] = useState("");
@@ -32,7 +33,8 @@ function Appointment() {
         date: selectDate.split("-").reverse().join("-"),
       });
 
-      console.log(response);
+      toast.success("Slot Booked Successfully")
+      navigate('/calenderpanel')
     } catch (err) {
       console.log(err);
     }
@@ -147,6 +149,8 @@ function Appointment() {
       </form>
     </div>
   );
+  
+
 }
 
 export default Appointment;
