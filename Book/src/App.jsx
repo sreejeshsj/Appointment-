@@ -8,6 +8,7 @@ import CalenderPanel from './components/CalenderPanel';
 import Appointment from './components/Appointment';
 import EditForm from './components/EditForm';
 import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/calenderpanel" element={<CalenderPanel />} />
-          <Route path="/appoinment" element={<Appointment />} />
+          <Route path="/appointment" element={<Appointment />} />
           <Route path="/login" element={<Login />} />
           <Route path="/edit-form/:id" element={<EditForm />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
 

@@ -24,11 +24,11 @@ function Navbar() {
           <p>Calender</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <NavLink to="/appoinment" className="flex flex-col items-center gap-1">
+        <NavLink to="/appointment" className="flex flex-col items-center gap-1">
           <p>Appoinment</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <NavLink to="About Us" className="flex flex-col items-center gap-1">
+        <NavLink to="/about" className="flex flex-col items-center gap-1">
           <p>About Us</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
