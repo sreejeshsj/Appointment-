@@ -8,15 +8,18 @@ function About() {
   const [selectedDate, setSelectedDate] = useState(null)
   const {navigate}=useContext(Datacontext)
   return (
-    <div className='flex flex-col items-center justify-center w-full gap-4 bg-gray-100 py-6'>
+    <div className='flex flex-col items-center justify-center w-full gap-4 py-6'>
       
       {/* Top Image Section */}
-      <div className='w-full bg-gray-300'>
+      <div className='w-full relative flex items-center justify-center'>
         <img className='w-full' src={assets.about} alt="About Section" />
+        <div className="absolute text-sm sm:text-3xl text-black  font-bold drop-shadow-lg">
+    Welcome to Our Hospital
+  </div>
       </div>
 
       {/* Cards Grid */}
-      <div className='grid w-[90%] grid-rows-4 gap-4 sm:grid-cols-4'>
+      <div className='grid w-[90%] grid-rows-1 gap-4 sm:grid-cols-4'>
 
         {/* Working Time Card */}
         <div className='bg-blue-800 text-white border border-blue-300 rounded-lg flex flex-col gap-3 justify-center items-center h-[220px] p-4'>

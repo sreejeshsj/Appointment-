@@ -17,9 +17,9 @@ function Footer() {
           <p className="text-sm mb-1">Quick Links:</p>
           <div className="flex gap-4 justify-center md:justify-end">
             <a href="/" className="hover:underline text-sm">Home</a>
-            <a href="/appointments" className="hover:underline text-sm">Appointments</a>
+            <a href="/appointment" className="hover:underline text-sm">Appointments</a>
             <a href="/about" className="hover:underline text-sm">About</a>
-            <a href="/contact" className="hover:underline text-sm">Contact</a>
+            <a href="/calenderpanel" className="hover:underline text-sm">Calender</a>
           </div>
         </div>
       </div>
