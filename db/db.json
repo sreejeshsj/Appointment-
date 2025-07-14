@@ -1,103 +1,103 @@
 {
   "appointments": [
     {
-      "id": "1",
+      "id": 1,
+      "name": "Ravi Patel",
+      "age": 29,
+      "appointedDoctor": "Dr. Aisha Ahmed",
+      "department": "Neurology",
+      "date": "13-07-2025",
+      "slot": 2
+    },
+    {
+      "id": 2,
+      "name": "Sneha Iyer",
+      "age": 36,
+      "appointedDoctor": "Dr. Rajesh Kumar",
+      "department": "Dermatology",
+      "date": "13-07-2025",
+      "slot": 4
+    },
+    {
+      "id": 3,
       "name": "John Doe",
       "age": 45,
       "appointedDoctor": "Dr. Emily Smith",
       "department": "Cardiology",
-      "slot": 1,
-      "date": "15-07-2025"
+      "date": "15-07-2025",
+      "slot": 4
     },
     {
-      "id": "2",
-      "name": "Alice Johnson",
-      "age": 30,
+      "id": 4,
+      "name": "John Doe",
+      "age": 45,
       "appointedDoctor": "Dr. Emily Smith",
-      "department": "Dermatology",
-      "slot": 2,
-      "date": "15-07-2025"
+      "department": "Ophthalmology",
+      "date": "15-07-2025",
+      "slot": 3
     },
     {
-      "id": "3",
-      "name": "Michael Brown",
-      "age": 52,
-      "appointedDoctor": "Dr. Sarah Lee",
-      "department": "Orthopedics",
-      "slot": 3,
-      "date": "15-07-2025"
+      "id": 5,
+      "name": "John Doe",
+      "age": 45,
+      "appointedDoctor": "Dr. Emily Smith",
+      "department": "Cardiology",
+      "date": "15-07-2025",
+      "slot": 4
     },
     {
-      "id": "4",
-      "name": "Priya Patel",
-      "age": 27,
-      "appointedDoctor": "Dr. Ayesha Khan",
-      "department": "Gynecology",
-      "slot": 4,
-      "date": "15-07-2025"
-    },
-    {
-      "id": "5",
+      "id": 6,
       "name": "David Miller",
       "age": 63,
       "appointedDoctor": "Dr. John Mathew",
       "department": "Neurology",
-      "slot": 3,
-      "date": "16-07-2025"
+      "date": "16-07-2025",
+      "slot": 3
     },
     {
-      "id": "6",
+      "id": 7,
       "name": "Sophia Garcia",
       "age": 38,
       "appointedDoctor": "Dr. Anil Mehta",
       "department": "Gastroenterology",
-      "slot": 4,
-      "date": "16-07-2025"
+      "date": "16-07-2025",
+      "slot": 4
     },
     {
-      "id": "7",
+      "id": 8,
       "name": "Rahul Sharma",
       "age": 50,
       "appointedDoctor": "Dr. Neha Verma",
       "department": "Urology",
-      "slot": 4,
-      "date": "16-07-2025"
+      "date": "16-07-2025",
+      "slot": 4
     },
     {
-      "id": "8",
+      "id": 9,
       "name": "Emma Wilson",
       "age": 22,
       "appointedDoctor": "Dr. Vinay Reddy",
       "department": "ENT",
-      "slot": 1,
-      "date": "17-07-2025"
+      "date": "17-07-2025",
+      "slot": 1
     },
     {
-      "id": "9",
+      "id": 10,
       "name": "Aarav Nair",
       "age": 34,
       "appointedDoctor": "Dr. Kavita Bansal",
       "department": "Pulmonology",
-      "slot": 2,
-      "date": "17-07-2025"
+      "date": "17-07-2025",
+      "slot": 2
     },
     {
-      "id": "10",
+      "id": 11,
       "name": "Lily Evans",
       "age": 41,
       "appointedDoctor": "Dr. Steven White",
       "department": "Ophthalmology",
-      "slot": 1,
-      "date": "17-07-2025"
-    },
-    {
-      "id": 11,
-      "name": "John Doe",
-      "age": 41,
-      "appointedDoctor": "Dr. Emily Smith",
-      "department": "Ophthalmology",
-      "slot": 3,
-      "date": "15-07-2025"
+      "date": "17-07-2025",
+      "slot": 1
     }
   ],
   "doctors": [
